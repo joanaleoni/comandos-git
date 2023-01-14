@@ -1,5 +1,7 @@
 # Comandos Git
 
+<img src="https://user-images.githubusercontent.com/77423877/212448635-0d5a1db3-1480-4910-baa8-971115cd06a4.png" width=550>
+
 ## Configurações
 `git config --global user.name "[nome]"`  
 Configura o nome relacionado aos commits  
@@ -60,4 +62,32 @@ Cria uma nova branch
 Apresenta as branches existentes e destaca a branch atual  
   
 `git checkout [nome-da-branch]`  
-Muda para a branch informada no comando
+Muda para a branch informada no comando  
+  
+`git merge [nome-branch]`  
+Integra as mudanças da branch especificada no comando com o histórico da branch atual
+
+## Repositório remoto
+`git remote add [nome-remote] [url-remote]`  
+Vincula o repositório remoto ao repositório local  
+  
+`git remote` / `git remote -v`
+Apresenta os repositórios remotos  
+
+`git remote rm [nome-remote]`  
+Desvincula o repositório remoto do repositório local  
+  
+`git push -u [nome-remote] [nome-branch-local]`  
+Envia os arquivos da branch do repositório local para o repositório remoto (utilizado no primeiro push)  
+  
+`git push`  
+Envia os arquivos da branch do repositório local para o repositório remoto (utilizado do segundo push em diante)  
+  
+`git pull [nome-remote] [nome-branch-local]`  
+Envia os arquivos do repositório remoto para a branch do repositório local  
+  
+`git fetch`  
+Busca as alterações feitas no repositório remoto, sem adicioná-las ao repositório local  
+  
+`git clone [url-remote]`  
+Clona um repositório remoto para o repositório local  
