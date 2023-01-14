@@ -77,7 +77,7 @@ Remove a branch do repositório remoto
 `git remote add [nome-remote] [url-remote]`  
 Vincula o repositório remoto ao repositório local  
   
-`git remote` / `git remote -v`
+`git remote` / `git remote -v`  
 Apresenta os repositórios remotos  
 
 `git remote rm [nome-remote]`  
