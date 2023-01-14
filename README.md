@@ -83,6 +83,9 @@ Apresenta os repositórios remotos
 `git remote rm [nome-remote]`  
 Desvincula o repositório remoto do repositório local  
   
+`git remote set-url [nome-remote] [url-novo-remote]`  
+Altera o repositório remoto vinculado ao repositório local  
+  
 `git push -u [nome-remote] [nome-branch-local]`  
 Envia os arquivos da branch do repositório local para o repositório remoto (utilizado no primeiro push)  
   
