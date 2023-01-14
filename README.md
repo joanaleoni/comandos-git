@@ -23,7 +23,7 @@ Verifica o status dos arquivos/diretórios e as modificações realizadas
 Adiciona o arquivo à staged area  
   
 `git add .` ou `git add -A`  
-Adiciona todos os arquivos modificicados à staged area  
+Adiciona todos os arquivos modificados à staged area  
   
 `git commit -m "Mensagem do commit"`  
 Armazena os arquivos que estão na staged area para um novo commit, gravando-os no histórico de versão  
