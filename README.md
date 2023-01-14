@@ -65,7 +65,13 @@ Apresenta as branches existentes e destaca a branch atual
 Muda para a branch informada no comando  
   
 `git merge [nome-branch]`  
-Integra as mudanças da branch especificada no comando com o histórico da branch atual
+Integra as mudanças da branch especificada no comando com o histórico da branch atual  
+  
+`git branch -D [nome-branch]`  
+Remove a branch do repositório local  
+  
+`git push [nome-remote] :[nome-branch]`  
+Remove a branch do repositório remoto
 
 ## Repositório remoto
 `git remote add [nome-remote] [url-remote]`  
