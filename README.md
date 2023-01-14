@@ -100,3 +100,6 @@ Busca as alterações feitas no repositório remoto, sem adicioná-las ao reposi
   
 `git clone [url-remote]`  
 Clona um repositório remoto para o repositório local  
+
+## Livro gratuito de Git
+[Pro Git](https://git-scm.com/book/en/v2)
