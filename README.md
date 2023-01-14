@@ -25,16 +25,20 @@ Adiciona todos os arquivos modificicados à staged area
   
 `git commit -m "Mensagem do commit"`  
 Armazena os arquivos que estão na staged area para um novo commit, gravando-os no histórico de versão  
-  
+    
+`git log`  
+Apresenta o histórico de commits  
+
+## Diferença entre arquivos
 `git diff`  
 Apresenta as linhas modificadas dos arquivos  
   
-`git log`  
-Apresenta o histórico de commits  
+`git diff --name-only`  
+Apresenta os nomes dos arquivos que foram modificados
   
-`git branch`  
-Apresenta a branch atual  
-  
+`git diff [arquivo]`  
+Apresenta as linhas modificadas no arquivo especificado no comando  
+
 ## Revertendo modificações
 `git reset [arquivo]`  
 Retorna o arquivo para a staged area  
@@ -47,3 +51,13 @@ Retona ao último commit, removendo as alterações feitas nos arquivos
 
 `git reset --soft [id do commit]` / `git reset --hard [id do commit]`  
 Retorna ao commit do ID especificado, mantendo as alterações (soft) ou removendo as alterações (hard)  
+
+## Branches
+`git branch [nome-da-branch]`  
+Cria uma nova branch  
+  
+`git branch`  
+Apresenta as branches existentes e destaca a branch atual  
+  
+`git checkout [nome-da-branch]`  
+Muda para a branch informada no comando
