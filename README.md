@@ -31,12 +31,12 @@ Armazena os arquivos que estão na staged area para um novo commit, gravando-os 
 `git log`  
 Apresenta o histórico de commits  
 
-## Diferença entre arquivos
+## Diferenças de arquivos
 `git diff`  
 Apresenta as linhas modificadas dos arquivos  
   
 `git diff --name-only`  
-Apresenta os nomes dos arquivos que foram modificados
+Apresenta os nomes dos arquivos que foram modificados  
   
 `git diff [arquivo]`  
 Apresenta as linhas modificadas no arquivo especificado no comando  
